@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Área Restrita"
+AuthUserFile /var/www/html/site-backend/.htpasswd
+Require valid-user
