@@ -1,0 +1,4 @@
+192.168.100.100 - - [20/Dec/2024:15:27:39 -0300] "GET / HTTP/1.1" 200 579 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+192.168.100.100 - - [20/Dec/2024:15:27:39 -0300] "GET /favicon.ico HTTP/1.1" 404 497 "http://estoque.backend.biz/" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+192.168.100.100 - - [20/Dec/2024:15:27:51 -0300] "GET /views/produtos.php HTTP/1.1" 404 498 "http://estoque.backend.biz/" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" 
+192.168.100.100 - - [20/Dec/2024:15:36:09 -0300] "GET / HTTP/1.1" 200 579 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
