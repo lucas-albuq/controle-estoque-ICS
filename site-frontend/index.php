@@ -19,13 +19,26 @@
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Produto exemplo</td>
-                    <td>Esse é um produto de exemplo</td>
-                    <td>12</td>
-                    <td>1.99</td>
-                </tr>
+                <?php
+                include 'db.php';
+                
+                $sql = "SELECT * FROM produtos";
+                $result = mysqli_query($connect, $sql);
+                
+                if (mysqli_num_rows($result) > 0) {
+                    while ($row = mysqli_fetch_assoc($result)) {
+                        echo "<tr>";
+                        echo "<td>" . htmlspecialchars($row['id']) . "</td>";
+                        echo "<td>" . htmlspecialchars($row['nome']) . "</td>";
+                        echo "<td>" . htmlspecialchars($row['descricao']) . "</td>";
+                        echo "<td>" . htmlspecialchars($row['quantidade_em_estoque']) . "</td>";
+                        echo "<td>" . htmlspecialchars($row['preco']) . "</td>";
+                        echo "</tr>";
+                    }
+                } else {
+                    echo "<tr><td colspan='5'>Nenhum produto encontrado.</td></tr>";
+                }
+                ?>
             </tbody>
         </table>
     </div>
