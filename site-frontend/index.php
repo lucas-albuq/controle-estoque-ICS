@@ -20,7 +20,7 @@
             </thead>
             <tbody>
                 <?php
-                include 'db.php';
+                include '../estoque.backend.biz/db.php';
                 
                 $sql = "SELECT * FROM produtos";
                 $result = mysqli_query($connect, $sql);
