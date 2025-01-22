@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="container mt-5">
-        <h1>Controle de Estoque</h1>
+        <h1 class="mb-4">Controle de Estoque</h1>
         <a href="views/produtos.php" class="btn btn-primary">Gerenciar Produtos</a>
         <a href="views/movimentacoes.php" class="btn btn-secondary">Gerenciar Movimentações</a>
     </div>
