@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "Gerenciar produtos"
-AuthUserFile /var/www/html/estoque.backend.biz/.htpasswd
+AuthUserFile /var/www/html/site-backend/.htpasswd
 Require valid-user
