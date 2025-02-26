@@ -1,4 +1,5 @@
 CREATE DATABASE controle_estoque;
+USE controle_estoque;
 
 CREATE TABLE produtos (
     id INT AUTO_INCREMENT PRIMARY KEY,
